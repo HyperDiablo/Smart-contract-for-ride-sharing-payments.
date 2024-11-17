@@ -1,0 +1,15 @@
+[package]
+name = "Smart_contract_RSpayments"
+version = "1.0.0"
+authors = []
+
+[addresses]
+SmartContractRSpayments = '0xa5bdd9ea1fe644aa35b5f4613e7e734512796b83108b372cf4121c17df4f3bf4'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
